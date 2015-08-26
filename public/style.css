@@ -23,8 +23,16 @@
 
 html {
   background-color: #F0EDEE;
+  font-family: sans-serif;
 }
 
+.name {
+  color: #734B5E;
+  float:left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
 
 /*******************************/
 
@@ -40,4 +48,20 @@ html {
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 5px;
+  overflow: hidden;
+}
+
+.effect-container {
+  float: right;
+  min-width: 100px;
+  margin-right: 20px;
+}
+
+.object {
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  background: white;
 }
